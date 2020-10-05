@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.1)
+project(my_lib)
+add_library(${PROJECT_NAME} SHARED src/my_lib.cpp)
+target_include_directories(${PROJECT_NAME} PUBLIC include)
