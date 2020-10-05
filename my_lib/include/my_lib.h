@@ -5,6 +5,12 @@
 #ifndef MY_LIB_MY_LIB_H
 #define MY_LIB_MY_LIB_H
 
-int my_function();
+extern "C" {
+
+__declspec(dllexport) int my_function();
+
+};
+
+
 
 #endif //MY_LIB_MY_LIB_H

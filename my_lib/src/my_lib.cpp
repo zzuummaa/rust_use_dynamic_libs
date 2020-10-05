@@ -3,7 +3,7 @@
 //
 
 #include "my_lib.h"
-#include <stdlib.h>
+#include <random>
 
 int my_function() {
 	return rand();
